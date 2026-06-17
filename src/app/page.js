@@ -1,4 +1,4 @@
-import Footer4 from "@/components/layout/footer/Footer4";
+import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
 import About4 from "@/components/sections/about/About4";
 import Features3 from "@/components/sections/features/Features3";
@@ -22,7 +22,7 @@ export default function Home() {
 						<About4 />
 						<Services4 />
 					</main>
-					<Footer4 />
+					<Footer showOffice />
 				</div>
 			</div>
 

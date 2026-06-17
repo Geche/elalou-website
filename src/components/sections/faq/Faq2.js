@@ -45,7 +45,7 @@ const Faq2 = ({ type = 1 }) => {
 							<div className="content-wrap">
 								<div className="sec-heading">
 									<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-										<i className="tji-box"></i>Common Questions
+										Common Questions
 									</span>
 									<h2 className="sec-title title-anim">
 										Need <span>Help?</span> Start Here...

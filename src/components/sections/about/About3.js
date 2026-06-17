@@ -52,7 +52,7 @@ const About3 = ({ type }) => {
 						<div className="about-content-area">
 							<div className={`sec-heading ${type === 2 ? "" : "style-3"}`}>
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-									<i className="tji-box"></i>Get to Know Us
+									Get to Know Us
 								</span>
 								<h2 className="sec-title title-anim">
 									{type === 2 ? (

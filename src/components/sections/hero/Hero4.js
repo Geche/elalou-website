@@ -7,7 +7,7 @@ const Hero4 = () => {
 			<div className="h4-banner-area">
 				<div className="h4-banner-content">
 					<span className="sub-title wow fadeInUp" data-wow-delay=".2s">
-						<i className="tji-box"></i> Your Gateway to East Africa
+						Your Gateway to East Africa
 					</span>
 					<h1 className="banner-title text-anim">
 						Opening East African Markets to the World.

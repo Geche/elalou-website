@@ -10,39 +10,22 @@ const TermsAndConditionsPrimary = () => {
 							<div>
 								<h2>
 									Terms &amp; Conditions{" "}
-									<span className="pill">
-										Bexon – Corporate Business HTML Template
-									</span>
+									<span className="pill">Elalou East Africa Limited</span>
 								</h2>
-								<p className="muted">Last updated: September 9, 2025</p>
+								<p className="muted">Last updated: January 1, 2026</p>
 								<p>
-									Thank you for choosing{" "}
-									<strong>Bexon – Corporate Business HTML Template</strong> .
-									These Terms &amp; Conditions govern your use of the Template
-									purchased from{" "}
-									<Link
-										href="https://themeforest.net/"
-										target="_blank"
-										rel="noopener"
-									>
-										ThemeForest (Envato Market)
-									</Link>
-									. By downloading, installing, or using the Template, you agree
-									to be bound by these Terms and the applicable{" "}
-									<Link
-										href="https://themeforest.net/licenses/standard"
-										target="_blank"
-										rel="noopener"
-									>
-										Envato License
-									</Link>
-									.
+									These Terms &amp; Conditions govern your use of the website of{" "}
+									<strong>Elalou East Africa Limited</strong> (“Elalou”, “we”,
+									“us”, or “our”). By accessing or using this website, you agree
+									to be bound by these Terms. If you do not agree, please do not
+									use the website.
 								</p>
 								<div className="note">
-									<strong>Short version:</strong> You can use Bexon on the
-									number of end products allowed by your Envato license, but you
-									can’t resell, redistribute, or share the source files. Support
-									and updates are provided according to the policies below.
+									<strong>Short version:</strong> This website provides general
+									information about Elalou’s market-entry advisory and commodity
+									export services. Nothing here is a binding offer or
+									professional advice — engagements are governed by a separate
+									written agreement.
 								</div>
 							</div>
 
@@ -50,203 +33,103 @@ const TermsAndConditionsPrimary = () => {
 								<h2>Table of Contents</h2>
 								<ol>
 									<li>
-										<button
-											className="tj-scroll-btn"
-											data-target="#definitions"
-										>
-											Definitions
+										<button className="tj-scroll-btn" data-target="#use">
+											Use of the Website
 										</button>
 									</li>
 									<li>
-										<button className="tj-scroll-btn" data-target="#license">
-											License &amp; Permitted Use
+										<button className="tj-scroll-btn" data-target="#ip">
+											Intellectual Property
 										</button>
 									</li>
 									<li>
-										<button
-											className="tj-scroll-btn"
-											data-target="#restrictions"
-										>
-											Restrictions
+										<button className="tj-scroll-btn" data-target="#services">
+											Services &amp; Information
 										</button>
 									</li>
 									<li>
-										<button className="tj-scroll-btn" data-target="#support">
-											Support Policy
+										<button className="tj-scroll-btn" data-target="#liability">
+											Limitation of Liability
 										</button>
 									</li>
 									<li>
-										<button className="tj-scroll-btn" data-target="#updates">
-											Updates &amp; Compatibility
+										<button className="tj-scroll-btn" data-target="#law">
+											Governing Law &amp; Contact
 										</button>
 									</li>
 								</ol>
 							</nav>
 
-							<div id="definitions">
-								<h3>1. Definitions</h3>
+							<div id="use">
+								<h3>1. Use of the Website</h3>
 								<p>
-									<strong>“We”, “Us”, “Our”</strong> refers to{" "}
-									<em>
-										<Link href="https://themeforest.net/user/theme-junction">
-											Theme Junction
-										</Link>
-									</em>
-									, the author of the Template on ThemeForest.
-								</p>
-								<p>
-									<strong>“You”, “Your”</strong> refers to the
-									purchaser/licensee who downloads or uses the Template.
-								</p>
-								<p>
-									<strong>“License”</strong> refers to the Envato Market license
-									(Regular or Extended) under which the Template is purchased.
-									For full details, see the{" "}
-									<Link
-										href="https://themeforest.net/licenses/standard"
-										target="_blank"
-										rel="noopener"
-									>
-										Envato License Terms
-									</Link>
-									.
+									You may use this website for lawful, informational purposes
+									only. You agree not to misuse the site, attempt to gain
+									unauthorised access, disrupt its operation, or use it in any
+									way that could damage Elalou or impair other users’ access.
 								</p>
 							</div>
 
-							<div id="license">
-								<h3>2. License &amp; Permitted Use</h3>
+							<div id="ip">
+								<h3>2. Intellectual Property</h3>
 								<p>
-									Your rights to use the Template are determined by the Envato
-									license you purchased:
-								</p>
-								<ul>
-									<li>
-										<strong>Regular License:</strong> Permits the use of the
-										Template in a single <em>end product</em> that is not
-										offered for sale, where end users are not charged to access
-										or use it.
-									</li>
-									<li>
-										<strong>Extended License:</strong> Permits the use of the
-										Template in a single <em>end product offered for sale</em>{" "}
-										(e.g., a SaaS or paid access site). The Template itself
-										cannot be resold as a template or theme.
-									</li>
-								</ul>
-								<p>
-									Each license is valid for <strong>one end product</strong>. If
-									you need the Template for multiple projects, you must purchase
-									one license for each end product. All uses must comply with
-									Envato’s licensing rules.
+									All content on this website — including the Elalou name, logo,
+									text, graphics, and layout — is the property of Elalou East
+									Africa Limited or its licensors and is protected by applicable
+									intellectual-property laws. You may not reproduce,
+									redistribute, or use it for commercial purposes without our
+									prior written consent.
 								</p>
 							</div>
 
-							<div id="restrictions">
-								<h3>3. Restrictions</h3>
+							<div id="services">
+								<h3>3. Services &amp; Information</h3>
 								<p>
-									You agree that you will <strong>not</strong>:
-								</p>
-								<ul>
-									<li>
-										Resell, redistribute, sublicense, share, or make the
-										Template (or any source files) publicly available, except as
-										permitted by your Envato license.
-									</li>
-									<li>
-										Use the Template in any way that competes with the original
-										item (e.g., as a theme/template for sale, or in a template
-										library/marketplace).
-									</li>
-									<li>
-										Remove, obscure, or alter copyright notices, license
-										headers, or item metadata where present.
-									</li>
-									<li>Claim the Template as your own original work.</li>
-									<li>
-										Use the Template for unlawful, harmful, or offensive
-										content, or in violation of any applicable law or
-										regulation.
-									</li>
-								</ul>
-							</div>
-
-							<div id="support">
-								<h3>4. Support Policy</h3>
-								<p>
-									Item support is provided in accordance with Envato’s{" "}
-									<Link
-										href="https://themeforest.net/page/item_support_policy"
-										target="_blank"
-										rel="noopener"
-									>
-										Item Support Policy
-									</Link>{" "}
-									for the support period associated with your purchase.
+									Information about our market-entry advisory, representation,
+									and commodity export services is provided for general guidance
+									only. It does not constitute professional, legal, financial,
+									or investment advice, and it is not a binding offer. Any
+									engagement with Elalou is governed by a separate written
+									agreement setting out the applicable scope, fees, and terms.
 								</p>
 								<p>
-									<strong>What’s included:</strong>
-								</p>
-								<ul>
-									<li>
-										Answering questions about item features and functionality.
-									</li>
-									<li>
-										Bug fixes and reported issue investigation (if the issue is
-										reproducible with the original item).
-									</li>
-									<li>
-										Updates to maintain item compatibility with supported
-										browsers and dependencies listed in the documentation.
-									</li>
-								</ul>
-								<p>
-									<strong>What’s not included:</strong>
-								</p>
-								<ul>
-									<li>Installation, customization, or new feature requests.</li>
-									<li>
-										Support for third‑party plugins, scripts, or hosting/server
-										issues.
-									</li>
-									<li>
-										Issues arising from modifications beyond the provided code
-										or from outdated dependencies not specified in the docs.
-									</li>
-								</ul>
-								<p>
-									<strong>How to get support:</strong> Please open a ticket or
-									contact us via ThemeForest comments with your{" "}
-									<em>Envato username</em> and <em>purchase code</em>. We may
-									ask for temporary access or additional details to diagnose
-									issues.
+									While we work to keep the website accurate and up to date,
+									figures, timelines, and examples shown may be illustrative and
+									are subject to change without notice.
 								</p>
 							</div>
 
-							<div id="updates">
-								<h3>5. Updates &amp; Compatibility</h3>
+							<div id="liability">
+								<h3>4. Limitation of Liability</h3>
 								<p>
-									We may release updates to improve features, fix bugs, or
-									maintain compatibility. You’ll have access to updates via your
-									ThemeForest downloads during the support/maintenance period.
+									To the fullest extent permitted by law, Elalou shall not be
+									liable for any loss or damage arising from your use of, or
+									reliance on, this website or its content. The website may
+									contain links to third-party sites; we are not responsible for
+									their content or practices.
 								</p>
-								<ul>
-									<li>
-										The Template is built as a static HTML/CSS/JS item. It does
-										not include server‑side code.
-									</li>
-									<li>
-										Browser support targets versions listed in the
-										documentation. Older/legacy browsers may require polyfills
-										or are not supported.
-									</li>
-								</ul>
+							</div>
+
+							<div id="law">
+								<h3>5. Governing Law &amp; Contact</h3>
+								<p>
+									These Terms are governed by the laws of the Republic of Kenya.
+									Any disputes shall be subject to the exclusive jurisdiction of
+									the courts of Kenya.
+								</p>
+								<p>
+									Questions about these Terms? Contact us at{" "}
+									<Link href="mailto:info@elalou.co.ke">info@elalou.co.ke</Link>{" "}
+									or visit our{" "}
+									<Link href="/contact">contact page</Link>.
+								</p>
 							</div>
 							<p className="muted">
 								<small>
-									This Terms &amp; Conditions page is provided for general
-									guidance only and does not constitute legal advice. Please
-									consult your legal advisor to adapt it to your specific needs
-									and local laws.
+									This Terms &amp; Conditions page is a placeholder provided for
+									general guidance only and does not constitute legal advice.
+									Please have it reviewed and adapted by a qualified legal
+									advisor before launch.
 								</small>
 							</p>
 						</div>

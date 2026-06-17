@@ -13,7 +13,7 @@ const Services4 = () => {
 					<div className="col-lg-12">
 						<div className="sec-heading style-4 text-center">
 							<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-								<i className="tji-box"></i>What We Do
+								What We Do
 							</span>
 							<h2 className="sec-title title-anim">
 								Advisory & Export Services for East Africa.
@@ -38,7 +38,7 @@ const Services4 = () => {
 						<div className="service-bottom-text">
 							<p className="desc">
 								<span>
-									<i className="tji-box"></i>Unlock tailored solutions without
+									Unlock tailored solutions without
 									the wasted effort.{" "}
 									<Link href="/contact">Talk to us today</Link>
 								</span>

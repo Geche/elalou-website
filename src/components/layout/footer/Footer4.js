@@ -87,14 +87,6 @@ const Footer4 = () => {
 										opening East Africa for global businesses.
 									</p>
 								</div>
-								<div className="award-logo-area">
-									<div className="award-logo">
-										<img src="/images/footer/award-logo-1.webp" alt="" />
-									</div>
-									<div className="award-logo">
-										<img src="/images/footer/award-logo-2.webp" alt="" />
-									</div>
-								</div>
 							</div>
 						</div>
 						<div className="col-xl-3 col-md-6">

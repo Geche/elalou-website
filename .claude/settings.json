@@ -1,0 +1,17 @@
+{
+  "enabledMcpjsonServers": ["playwright"],
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "f=$(jq -r \".tool_input.file_path // empty\"); case \"$f\" in *src/app/assets/css/*) jq -n \"{hookSpecificOutput:{hookEventName:\\\"PreToolUse\\\",permissionDecision:\\\"deny\\\",permissionDecisionReason:\\\"src/app/assets/css/** is precompiled vendor CSS — do not hand-edit. Edit the SCSS source under src/app/assets/sass/** instead.\\\"}}\" ;; esac",
+            "statusMessage": "Checking for vendor CSS edits"
+          }
+        ]
+      }
+    ]
+  }
+}

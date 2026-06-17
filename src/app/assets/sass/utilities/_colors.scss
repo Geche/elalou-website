@@ -1,0 +1,50 @@
+// ── Official Elalou East Africa palette ──────────────────────────
+// Deep Navy   #0B1F3B  authority — nav, headings, primary buttons, key/dark section bgs
+// Charcoal    #111111  foundation — logo, main text, high-contrast, deepest footer
+// Soft White  #F7F8FA  primary background, content sections (≈70%)
+// Cool Grey   #D7DCE3  dividers, form borders, separators, cards
+// Trade Green #4C6B5A  accent (≈2%) — button hover, highlights, small accents
+$colors: (
+	common: (
+		white: #ffffff,
+		black: #000000,
+	),
+	heading: (
+		primary: #0b1f3b,
+	),
+	text: (
+		body: #2a2f38,
+		body-2: #9aa3b2,
+		body-3: #5b6675,
+		body-4: #111111,
+		body-5: #ffffffcc,
+	),
+	theme: (
+		primary: #0b1f3b,
+		primary-light: #4d5f82,
+		accent: #4c6b5a,
+		bg: #f7f8fa,
+		bg-2: #eef0f4,
+		bg-3: #0b1f3b,
+		dark: #0b1f3b,
+		dark-2: #111111,
+		dark-3: #3a4659,
+		dark-4: #6b7686,
+		dark-5: #6b7280,
+	),
+	red: (
+		1: #ff0000,
+	),
+	grey: (
+		1: #eef0f4,
+		2: #9aa3b2,
+		3: #ffffff1a,
+	),
+	border: (
+		1: #d7dce3,
+		2: #2a3346,
+		3: #ffffff26,
+		4: #ffffff33,
+		5: #4c6b5a26,
+	),
+);

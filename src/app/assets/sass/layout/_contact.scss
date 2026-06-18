@@ -47,7 +47,10 @@ START: Contact CSS
 		}
 		a {
 			&:hover {
-				color: var(--tj-color-theme-primary);
+				color: var(--tj-color-common-white);
+					text-decoration: underline;
+					text-decoration-color: var(--tj-color-theme-accent);
+					text-underline-offset: 4px;
 			}
 		}
 		.contact-link {

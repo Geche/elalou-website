@@ -38,14 +38,14 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 							<div className="contact-info">
 								<div className="contact-item">
 									<span className="subtitle">Phone</span>
-									<Link className="contact-link" href="tel:+254700000000">
-										+254 700 000 000
+									<Link className="contact-link" href="tel:+254725724124">
+										+254 725 724124
 									</Link>
 								</div>
 								<div className="contact-item">
 									<span className="subtitle">Email</span>
-									<Link className="contact-link" href="mailto:info@elalou.co.ke">
-										info@elalou.co.ke
+									<Link className="contact-link" href="mailto:info@elalouealgroup.com">
+										info@elalouealgroup.com
 									</Link>
 								</div>
 								<div className="contact-item">

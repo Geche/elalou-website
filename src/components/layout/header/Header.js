@@ -74,12 +74,12 @@ const Header = ({
 								<div className="header-right-item d-none d-lg-inline-flex">
 									<Link
 										className="header-contact d-none d-xl-inline-flex"
-										href="tel:+254700000000"
+										href="tel:+254725724124"
 									>
 										<span className="call-icon">
 											<i className="tji-phone"></i>
 										</span>
-										<span className="call-text">+254 700 000 000</span>
+										<span className="call-text">+254 725 724124</span>
 									</Link>
 									{headerType !== 5 ? (
 										<div className="header-button">

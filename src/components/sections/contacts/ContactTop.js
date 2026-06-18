@@ -40,10 +40,9 @@ const ContactTop = () => {
 							<h3 className="contact-title">Email us</h3>
 							<ul className="contact-list">
 								<li>
-									<Link href="mailto:info@elalou.co.ke">info@elalou.co.ke</Link>
-								</li>
-								<li>
-									<Link href="mailto:sales@elalou.co.ke">sales@elalou.co.ke</Link>
+									<Link href="mailto:info@elalouealgroup.com">
+										info@elalouealgroup.com
+									</Link>
 								</li>
 							</ul>
 						</div>
@@ -59,10 +58,7 @@ const ContactTop = () => {
 							<h3 className="contact-title">Call us</h3>
 							<ul className="contact-list">
 								<li>
-									<Link href="tel:+254700000000">+254 700 000 000</Link>
-								</li>
-								<li>
-									<Link href="tel:+254733000000">+254 733 000 000</Link>
+									<Link href="tel:+254725724124">+254 725 724124</Link>
 								</li>
 							</ul>
 						</div>
@@ -78,8 +74,12 @@ const ContactTop = () => {
 							<h3 className="contact-title">Live chat</h3>
 							<ul className="contact-list">
 								<li>
-									<Link href="mailto:hello@elalou.co.ke">
-										hello@elalou.co.ke
+									<Link
+										href="https://wa.me/254725724124"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Chat on WhatsApp
 									</Link>
 								</li>
 								<li className="active">

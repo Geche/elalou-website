@@ -81,11 +81,11 @@ const Footer = ({ showOffice = false }) => {
 									<ul>
 										<li>Westlands Business Park, Nairobi, Kenya</li>
 										<li>
-											<Link href="tel:+254700000000">+254 700 000 000</Link>
+											<Link href="tel:+254725724124">+254 725 724124</Link>
 										</li>
 										<li>
-											<Link href="mailto:info@elalou.co.ke">
-												info@elalou.co.ke
+											<Link href="mailto:info@elalouealgroup.com">
+												info@elalouealgroup.com
 											</Link>
 										</li>
 									</ul>
@@ -129,19 +129,19 @@ const Footer = ({ showOffice = false }) => {
 								<div className="footer-contact">
 									<ul>
 										<li>
-											<Link href="tel:+254700000000">
+											<Link href="tel:+254725724124">
 												<span className="icon">
 													<i className="tji-phone-2"></i>
 												</span>
-												<span className="text">+254 700 000 000</span>
+												<span className="text">+254 725 724124</span>
 											</Link>
 										</li>
 										<li>
-											<Link href="mailto:info@elalou.co.ke">
+											<Link href="mailto:info@elalouealgroup.com">
 												<span className="icon">
 													<i className="tji-envelop-2"></i>
 												</span>
-												<span className="text">info@elalou.co.ke</span>
+												<span className="text">info@elalouealgroup.com</span>
 											</Link>
 										</li>
 									</ul>

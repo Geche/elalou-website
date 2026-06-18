@@ -16,9 +16,9 @@ const Contact2 = () => {
 									<div className="location-tooltip">
 										<span>Head office:</span>
 										<p>Westlands Business Park, Nairobi, Kenya.</p>
-										<Link href="tel:+254700000000">P: +254 700 000 000</Link>
-										<Link href="mailto:info@elalou.co.ke">
-											M: info@elalou.co.ke
+										<Link href="tel:+254725724124">P: +254 725 724124</Link>
+										<Link href="mailto:info@elalouealgroup.com">
+											M: info@elalouealgroup.com
 										</Link>
 									</div>
 								</div>
@@ -27,8 +27,8 @@ const Contact2 = () => {
 										<span>Port office:</span>
 										<p>Moi Avenue, Mombasa, Kenya.</p>
 										<Link href="tel:+254700000001">P: +254 700 000 001</Link>
-										<Link href="mailto:export@elalou.co.ke">
-											M: export@elalou.co.ke
+										<Link href="mailto:info@elalouealgroup.com">
+											M: info@elalouealgroup.com
 										</Link>
 									</div>
 								</div>
@@ -37,8 +37,8 @@ const Contact2 = () => {
 										<span>Regional office:</span>
 										<p>Nakasero, Kampala, Uganda.</p>
 										<Link href="tel:+254700000002">P: +254 700 000 002</Link>
-										<Link href="mailto:uganda@elalou.co.ke">
-											M: uganda@elalou.co.ke
+										<Link href="mailto:info@elalouealgroup.com">
+											M: info@elalouealgroup.com
 										</Link>
 									</div>
 								</div>

@@ -1,4 +1,5 @@
 import { Mona_Sans } from "next/font/google";
+import WhatsAppButton from "@/components/shared/others/WhatsAppButton";
 import "react-range-slider-input/dist/style.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -47,6 +48,7 @@ export default function RootLayout({ children }) {
 		>
 			<body className={`${bodyFont.variable} ${headingFont.variable}`}>
 				{children}
+				<WhatsAppButton />
 			</body>
 		</html>
 	);

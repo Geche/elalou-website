@@ -150,9 +150,9 @@ const Footer4 = () => {
 										<span>Westlands Business Park, Nairobi, Kenya.</span>
 									</div>
 									<div className="contact-item">
-										<Link href="tel:+254700000000">P: +254 700 000 000</Link>
-										<Link href="mailto:info@elalou.co.ke">
-											M: info@elalou.co.ke
+										<Link href="tel:+254725724124">P: +254 725 724124</Link>
+										<Link href="mailto:info@elalouealgroup.com">
+											M: info@elalouealgroup.com
 										</Link>
 									</div>
 									<div className="contact-item">

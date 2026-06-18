@@ -119,7 +119,7 @@ const TermsAndConditionsPrimary = () => {
 								</p>
 								<p>
 									Questions about these Terms? Contact us at{" "}
-									<Link href="mailto:info@elalou.co.ke">info@elalou.co.ke</Link>{" "}
+									<Link href="mailto:info@elalouealgroup.com">info@elalouealgroup.com</Link>{" "}
 									or visit our{" "}
 									<Link href="/contact">contact page</Link>.
 								</p>

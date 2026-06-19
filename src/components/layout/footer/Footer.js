@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NewsletterForm from "@/components/layout/footer/NewsletterForm";
 
 const Footer = ({ showOffice = false }) => {
 	return (
@@ -97,23 +98,7 @@ const Footer = ({ showOffice = false }) => {
 								>
 									<h3 className="title">Subscribe to Our Newsletter.</h3>
 									<div className="subscribe-form">
-										<form action="#">
-											<input
-												type="email"
-												name="email"
-												placeholder="Enter email"
-											/>
-											<button type="submit">
-												<i className="tji-plane"></i>
-											</button>
-											<label htmlFor="agree">
-												<input id="agree" type="checkbox" />
-												Agree to our{" "}
-												<Link href="/terms-and-conditions">
-													Terms & Condition?
-												</Link>
-											</label>
-										</form>
+										<NewsletterForm />
 									</div>
 								</div>
 							)}

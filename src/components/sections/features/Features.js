@@ -4,19 +4,20 @@ import FeatureCard from "@/components/shared/cards/FeatureCard";
 const Features = ({ type }) => {
 	const features = [
 		{
+			title: "Reliable Export",
+			desc: "From farm-gate to port, we consolidate, grade, and document every shipment — so orders arrive on spec, on time, and fully traceable.",
+			icon: "tji-support",
+			highlight: true,
+		},
+		{
 			title: "Local Expertise",
-			desc: "Our team lives and works in the region, with the networks, market knowledge, and regulatory fluency only the ground can teach.",
+			desc: "Years embedded in East African markets let us read suppliers, grades, and regulations the way only an in-region team can.",
 			icon: "tji-innovative",
 		},
 		{
 			title: "End-to-End Advisory",
-			desc: "From feasibility and licensing to partner sourcing and first contracts, we manage every step of your market entry.",
+			desc: "Need a foothold, not just a shipment? We guide market entry, partner introductions, and representation on the ground.",
 			icon: "tji-award",
-		},
-		{
-			title: "Reliable Export",
-			desc: "Graded East African commodities — coffee, tea, macadamia, avocado — sourced, certified, and shipped on schedule.",
-			icon: "tji-support",
 		},
 	];
 

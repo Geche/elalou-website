@@ -1,8 +1,10 @@
 const FeatureCard = ({ feature, type, idx }) => {
-	const { icon, title, desc } = feature ? feature : {};
+	const { icon, title, desc, highlight } = feature ? feature : {};
 	return (
 		<div
-			className={`choose-box ${type === 2 ? "h6-choose-box" : ""} right-swipe`}
+			className={`choose-box ${type === 2 ? "h6-choose-box" : ""} ${
+				highlight ? "is-highlight" : ""
+			} right-swipe`}
 		>
 			<div className="choose-content">
 				<div className="choose-icon">

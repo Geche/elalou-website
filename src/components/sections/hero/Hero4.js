@@ -7,10 +7,10 @@ const Hero4 = () => {
 			<div className="h4-banner-area">
 				<div className="h4-banner-content">
 					<span className="sub-title wow fadeInUp" data-wow-delay=".2s">
-						YOUR EXPORT PARTNER IN EAST AFRICA
+						Your gateway to East Africa
 					</span>
 					<h1 className="banner-title text-anim">
-						Graded East African Commodities, Sourced and Shipped.
+						Structured commodity sourcing & Trade from East Africa
 					</h1>
 					<div className="banner-desc-area wow fadeInUp" data-wow-delay=".7s">
 						<ButtonPrimary text={"Request Availability"} url={"/contact"} />

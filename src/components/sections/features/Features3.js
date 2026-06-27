@@ -26,7 +26,7 @@ const Features3 = () => {
 	return (
 		<section id="choose" className="tj-choose-section section-gap">
 			<div className="container">
-				{/* CONFIRM WITH CLIENT: product list reconciled to verified commodities (cashew, sesame, coffee, chia, vanilla, dried herbs, Hass avocado). Previous card mentioned tea + macadamia — confirm before publishing. */}
+				{/* CLIENT-CONFIRMED LIST: cashew, sesame, coffee, chia, vanilla, dried herbs, Hass avocado, macadamia (macadamia added per client comment 2026-06-27). Tea from the old card remains excluded — confirm if it should return. */}
 				<div className="row row-gap-4">
 					{/* Card 1 — highlighted, export-first */}
 					<div

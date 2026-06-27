@@ -6,14 +6,15 @@ const products = [
 	{ name: "Vanilla", descriptor: "Cured pods, premium grade" },
 	{ name: "Dried herbs", descriptor: "Cleaned and packed to spec" },
 	{ name: "Hass avocado", descriptor: "Fresh, export-grade, seasonal" },
+	{ name: "Macadamia", descriptor: "In-shell and kernel, export-grade" },
 ];
 
 const WhatWeExport = () => {
 	return (
 		<section id="what-we-export" className="tj-choose-section section-gap">
 			<div className="container">
-				{/* CONFIRM WITH CLIENT: product list reconciled to verified commodities (cashew, sesame, coffee, chia, vanilla, dried herbs, Hass avocado). Previous card mentioned tea + macadamia — confirm before publishing. */}
-				{/* CONFIRM WITH CLIENT: product descriptors are draft trade framing, not verified specs. */}
+				{/* CLIENT-CONFIRMED LIST: cashew, sesame, coffee, chia, vanilla, dried herbs, Hass avocado, macadamia. Macadamia added per client comment (2026-06-27). Tea from the old card remains excluded — confirm if it should return. */}
+				{/* CONFIRM WITH CLIENT: product descriptors are draft trade framing, not verified specs (incl. the new Macadamia descriptor). */}
 				<div className="row">
 					<div className="col-lg-12">
 						<div className="sec-heading style-4 text-center">

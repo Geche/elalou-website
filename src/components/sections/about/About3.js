@@ -1,4 +1,3 @@
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import Image from "next/image";
 const About3 = ({ type }) => {
 	return (
@@ -73,8 +72,9 @@ const About3 = ({ type }) => {
 							>
 								<h4 className="title">Our Mission</h4>
 								<p className="desc">
-									our mission is empower businesses through innovate best
-									solution, exceptional service.
+									To reduce the complexity of market entry and trade by
+									providing trusted execution, regional insight, and reliable
+									commercial support.
 								</p>
 								<ul className="list-items">
 									<li>
@@ -94,8 +94,8 @@ const About3 = ({ type }) => {
 							>
 								<h4 className="title">Our Vision</h4>
 								<p className="desc">
-									Our vision is to become a global leader in providing
-									transformative business solutions.
+									To be the preferred partner connecting global businesses to
+									opportunities across East Africa.
 								</p>
 								<ul className="list-items">
 									<li>
@@ -109,9 +109,6 @@ const About3 = ({ type }) => {
 									</li>
 								</ul>
 							</div>
-						</div>
-						<div className="about-btn-area wow fadeInUp" data-wow-delay=".5s">
-							<ButtonPrimary text={"Learn More About Us"} url={"/about"} />
 						</div>
 					</div>
 				</div>

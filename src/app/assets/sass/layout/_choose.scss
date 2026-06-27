@@ -80,6 +80,21 @@ START: Choose CSS
 			color: var(--tj-color-common-white);
 		}
 	}
+	// Persistent navy highlight (same treatment as :hover) for a featured card.
+	&.is-highlight {
+		background-color: var(--tj-color-theme-primary);
+		.choose-icon {
+			color: var(--tj-color-common-white);
+		}
+		.btn-icon {
+			background-color: var(--tj-color-theme-dark);
+		}
+		.btn-text,
+		.desc,
+		.title {
+			color: var(--tj-color-common-white);
+		}
+	}
 	@media #{$xl, $lg, $md} {
 		padding: 40px 20px;
 	}

@@ -16,7 +16,7 @@ const Services4 = () => {
 								What We Do
 							</span>
 							<h2 className="sec-title title-anim">
-								Advisory & Export Services for East Africa.
+								Export & Advisory Services for East Africa.
 							</h2>
 						</div>
 					</div>

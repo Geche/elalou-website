@@ -30,6 +30,9 @@ const Footer = ({ showOffice = false }) => {
 								<h5 className="title">Services</h5>
 								<ul>
 									<li>
+										<Link href="/services/6">Commodity Export</Link>
+									</li>
+									<li>
 										<Link href="/services/1">Market-Entry Strategy</Link>
 									</li>
 									<li>
@@ -43,9 +46,6 @@ const Footer = ({ showOffice = false }) => {
 									</li>
 									<li>
 										<Link href="/services/5">Market Intelligence</Link>
-									</li>
-									<li>
-										<Link href="/services/6">Commodity Export</Link>
 									</li>
 								</ul>
 							</div>

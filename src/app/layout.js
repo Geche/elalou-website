@@ -33,9 +33,9 @@ const headingFont = Mona_Sans({
 });
 
 export const metadata = {
-	title: "Elalou East Africa — Market Entry Advisory & Commodity Export",
+	title: "Elalou East Africa — Commodity Export & Market-Entry Advisory",
 	description:
-		"Elalou East Africa Limited opens the East African market for global businesses and moves the region's finest commodities to the world. Advisory, representation, and export from Nairobi.",
+		"Elalou East Africa Limited sources and exports graded East African commodities to global buyers from Nairobi — backed by market-entry advisory and commercial representation across Kenya, Uganda, Tanzania, and Rwanda.",
 };
 
 export default function RootLayout({ children }) {

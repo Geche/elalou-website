@@ -76,17 +76,6 @@ const About3 = ({ type }) => {
 									providing trusted execution, regional insight, and reliable
 									commercial support.
 								</p>
-								<ul className="list-items">
-									<li>
-										<i className="tji-list"></i>Innovation & Excellence
-									</li>
-									<li>
-										<i className="tji-list"></i>Exceptional Customer
-									</li>
-									<li>
-										<i className="tji-list"></i>Business Growth
-									</li>
-								</ul>
 							</div>
 							<div
 								className="mission-vision-box wow fadeInRight"
@@ -97,17 +86,6 @@ const About3 = ({ type }) => {
 									To be the preferred partner connecting global businesses to
 									opportunities across East Africa.
 								</p>
-								<ul className="list-items">
-									<li>
-										<i className="tji-list"></i>Global Leadership
-									</li>
-									<li>
-										<i className="tji-list"></i>Transformative Impact
-									</li>
-									<li>
-										<i className="tji-list"></i>Sustainable Success
-									</li>
-								</ul>
 							</div>
 						</div>
 					</div>

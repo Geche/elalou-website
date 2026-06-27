@@ -7,7 +7,6 @@ const Features = ({ type }) => {
 			title: "Reliable Export",
 			desc: "From farm-gate to port, we consolidate, grade, and document every shipment — so orders arrive on spec, on time, and fully traceable.",
 			icon: "tji-support",
-			highlight: true,
 		},
 		{
 			title: "Local Expertise",

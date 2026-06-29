@@ -255,6 +255,7 @@ START: Contact CSS
 .contact {
 	&-item {
 		&.style-2 {
+			height: 100%;
 			padding: 30px 25px 40px;
 			background-color: var(--tj-color-common-white);
 			text-align: center;

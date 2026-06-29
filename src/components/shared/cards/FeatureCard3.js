@@ -1,7 +1,7 @@
 const FeatureCard3 = ({ feature, idx }) => {
-	const { icon, title, desc } = feature ? feature : {};
+	const { icon, title, desc, highlight } = feature ? feature : {};
 	return (
-		<div className="choose-box">
+		<div className={`choose-box${highlight ? " is-highlight" : ""}`}>
 			<div className="choose-content">
 				<div className="choose-icon">
 					<i className={icon}></i>

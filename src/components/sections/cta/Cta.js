@@ -9,11 +9,16 @@ const Cta = () => {
 						<div className="cta-area">
 							<div className="cta-content">
 								<h2 className="title title-anim">
-									Let’s Open Your Next Market.
+									Sourcing from East Africa? Start Here.
 								</h2>
+								<p className="desc wow fadeInUp" data-wow-delay=".4s">
+									Tell us the commodity, the volume, and your destination
+									market. We’ll come back with availability, grade, and
+									shipping terms.
+								</p>
 								<div className="cta-btn wow fadeInUp" data-wow-delay=".6s">
 									<ButtonPrimary
-										text={"Get Started Now"}
+										text={"Request Availability"}
 										url={"/contact"}
 										className={"btn-dark"}
 									/>

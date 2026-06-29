@@ -7,16 +7,17 @@ const Hero4 = () => {
 			<div className="h4-banner-area">
 				<div className="h4-banner-content">
 					<span className="sub-title wow fadeInUp" data-wow-delay=".2s">
-						Your Gateway to East Africa
+						Your gateway to East Africa
 					</span>
 					<h1 className="banner-title text-anim">
-						Opening East African Markets to the World.
+						Structured commodity sourcing & Trade from East Africa
 					</h1>
 					<div className="banner-desc-area wow fadeInUp" data-wow-delay=".7s">
-						<ButtonPrimary text={"Get Started"} url={"/contact"} />
+						<ButtonPrimary text={"Request Availability"} url={"/contact"} />
 						<div className="banner-desc">
-							Market-entry advisory and commodity export from Nairobi — your
-							partner across Kenya, Uganda, Tanzania, and Rwanda.
+							Connecting global buyers with reliable agricultural supply chains
+							across East Africa while supporting international companies seeking
+							market access and commercial execution.
 						</div>
 					</div>
 				</div>

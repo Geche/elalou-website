@@ -7,36 +7,33 @@ const Features3 = () => {
 			id: 1,
 			title: "Reliable Export",
 			icon: "tji-innovative",
-			desc: "Graded East African commodities — coffee, tea, macadamia, avocado — sourced from vetted producers and shipped on schedule.",
+			desc: "Graded East African commodities sourced, quality-checked, and shipped on schedule. Traceable supply you can plan around.",
+			highlight: true,
 		},
 		{
 			id: 2,
 			title: "Local Expertise",
 			icon: "tji-award",
-			desc: "Our team lives and works in the region, with the networks, market knowledge, and regulatory fluency only the ground can teach.",
+			desc: "Our team works on the ground, with the supplier networks, quality knowledge, and regulatory fluency that distance can't replicate.",
 		},
 		{
 			id: 3,
 			title: "End-to-End Advisory",
 			icon: "tji-team",
-			desc: "From feasibility and licensing to partner sourcing and first contracts, we manage every step of your market entry.",
-		},
-		{
-			id: 3,
-			title: "Dedicated Support",
-			icon: "tji-support",
-			desc: "A single accountable team beside yours from the first study to steady operations — responsive, transparent, and on the ground.",
+			desc: "For buyers who want more than supply: market intelligence, partner sourcing, and commercial representation across the region.",
 		},
 	];
 	return (
 		<section id="choose" className="tj-choose-section section-gap">
 			<div className="container">
+				{/* CLIENT-CONFIRMED LIST: cashew, sesame, coffee, chia, vanilla, dried herbs, Hass avocado, macadamia (macadamia added per client comment 2026-06-27). Tea from the old card remains excluded — confirm if it should return. */}
 				<div className="row row-gap-4">
+					{/* Card 1 — highlighted, export-first */}
 					<div
 						className="col-lg-4 col-md-6 order-lg-0 order-1 wow fadeInUp"
 						data-wow-delay=".2s"
 					>
-						<FeatureCard3 feature={features[1]} />
+						<FeatureCard3 feature={features[0]} />
 					</div>
 					<div className="col-lg-4 col-md-6 order-lg-1 order-0">
 						<div className="h4-content-wrap text-center">
@@ -66,21 +63,15 @@ const Features3 = () => {
 						className="col-lg-4 col-md-6 order-lg-2 order-2  wow fadeInUp"
 						data-wow-delay=".3s"
 					>
-						<FeatureCard3 feature={features[2]} />
+						<FeatureCard3 feature={features[1]} />
 					</div>
 					<div
 						className="col-lg-4 col-md-6 order-lg-3 order-3 wow fadeInUp"
 						data-wow-delay=".5s"
 					>
-						<FeatureCard3 feature={features[3]} />
+						<FeatureCard3 feature={features[2]} />
 					</div>
-					<div
-						className="col-lg-4 col-md-6 order-lg-4 order-4 wow fadeInUp"
-						data-wow-delay=".7s"
-					>
-						<FeatureCard3 feature={features[0]} />
-					</div>
-					<div className="col-lg-4 col-md-6 order-lg-5 order-5">
+					<div className="col-lg-4 col-md-6 order-lg-4 order-4">
 						<div
 							className="countup-item style-2 wow fadeInUp"
 							data-wow-delay=".9s"

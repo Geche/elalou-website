@@ -1,6 +1,7 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
 import ServiceDetailsMain from "@/components/layout/main/ServiceDetailsMain";
+import WhatWeExport from "@/components/sections/products/WhatWeExport";
 import Cta from "@/components/sections/cta/Cta";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
@@ -26,6 +27,8 @@ export default async function ServiceDetails({ params }) {
 					<main>
 						<HeaderSpace />
 						<ServiceDetailsMain currentItemId={parseInt(id)} />
+						{/* What We Export shown only on the Commodity Export service (id 6) */}
+						{parseInt(id) === 6 && <WhatWeExport />}
 						<Cta />
 					</main>
 					<Footer />

@@ -63,8 +63,8 @@ const WhatWeExport = () => {
 					{products.map((product, idx) => (
 						<div
 							key={idx}
-							className="col-lg-4 col-md-6 wow fadeInUp"
-							data-wow-delay={`.${(idx % 3) + 1}s`}
+							className="col-lg-3 col-md-6 wow fadeInUp"
+							data-wow-delay={`.${(idx % 4) + 1}s`}
 						>
 							<div className="choose-box wwe-card">
 								<div className="wwe-img">

@@ -115,6 +115,25 @@ START: Choose CSS
 	}
 }
 
+// Product cards (What We Export) — image banner + content, reuses .choose-box.
+.choose-box.wwe-card {
+	padding: 0;
+	overflow: hidden;
+	.wwe-img {
+		aspect-ratio: 3 / 2;
+		background-color: var(--tj-color-theme-bg);
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			display: block;
+		}
+	}
+	.choose-content {
+		padding: 26px 26px 30px;
+	}
+}
+
 .work-experience-area {
 	max-width: 570px;
 	.sec-heading {

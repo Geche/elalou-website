@@ -1,12 +1,44 @@
 const products = [
-	{ name: "Cashew nuts", descriptor: "Raw and processed, graded for export" },
-	{ name: "Sesame seeds", descriptor: "Cleaned and sorted, bulk volumes" },
-	{ name: "Coffee", descriptor: "Specialty and commercial grades" },
-	{ name: "Chia seeds", descriptor: "Food-grade, traceable origin" },
-	{ name: "Vanilla beans", descriptor: "Cured pods, premium grade" },
-	{ name: "Dried herbs", descriptor: "Cleaned and packed to spec" },
-	{ name: "Hass avocado", descriptor: "Fresh, export-grade, seasonal" },
-	{ name: "Macadamia nuts", descriptor: "In-shell and kernel, export-grade" },
+	{
+		name: "Cashew nuts",
+		descriptor: "Raw and processed, graded for export",
+		img: "/images/products/cashew-nuts.jpg",
+	},
+	{
+		name: "Sesame seeds",
+		descriptor: "Cleaned and sorted, bulk volumes",
+		img: "/images/products/sesame-seeds.jpg",
+	},
+	{
+		name: "Coffee",
+		descriptor: "Specialty and commercial grades",
+		img: "/images/products/coffee.svg",
+	},
+	{
+		name: "Chia seeds",
+		descriptor: "Food-grade, traceable origin",
+		img: "/images/products/chia-seeds.jpg",
+	},
+	{
+		name: "Vanilla beans",
+		descriptor: "Cured pods, premium grade",
+		img: "/images/products/vanilla-beans.jpg",
+	},
+	{
+		name: "Dried herbs",
+		descriptor: "Cleaned and packed to spec",
+		img: "/images/products/dried-herbs.svg",
+	},
+	{
+		name: "Hass avocado",
+		descriptor: "Fresh, export-grade, seasonal",
+		img: "/images/products/hass-avocado.svg",
+	},
+	{
+		name: "Macadamia nuts",
+		descriptor: "In-shell and kernel, export-grade",
+		img: "/images/products/macadamia-nuts.jpg",
+	},
 ];
 
 const WhatWeExport = () => {
@@ -15,6 +47,7 @@ const WhatWeExport = () => {
 			<div className="container">
 				{/* CLIENT-CONFIRMED LIST: cashew, sesame, coffee, chia, vanilla, dried herbs, Hass avocado, macadamia. Macadamia added per client comment (2026-06-27). Tea from the old card remains excluded — confirm if it should return. */}
 				{/* CONFIRM WITH CLIENT: product descriptors are draft trade framing, not verified specs (incl. the new Macadamia descriptor). */}
+				{/* IMAGES: cashew, sesame, chia, vanilla, macadamia use real photos (.jpg). coffee, dried-herbs, hass-avocado still use labeled .svg placeholders — swap for real photography before publishing. */}
 				<div className="row">
 					<div className="col-lg-12">
 						<div className="sec-heading style-4 text-center">
@@ -30,10 +63,13 @@ const WhatWeExport = () => {
 					{products.map((product, idx) => (
 						<div
 							key={idx}
-							className="col-lg-4 col-md-6 wow fadeInUp"
-							data-wow-delay={`.${(idx % 3) + 1}s`}
+							className="col-lg-3 col-md-6 wow fadeInUp"
+							data-wow-delay={`.${(idx % 4) + 1}s`}
 						>
-							<div className="choose-box">
+							<div className="choose-box wwe-card">
+								<div className="wwe-img">
+									<img src={product.img} alt={product.name} loading="lazy" />
+								</div>
 								<div className="choose-content">
 									<h4 className="title">{product.name}</h4>
 									<p className="desc">{product.descriptor}</p>

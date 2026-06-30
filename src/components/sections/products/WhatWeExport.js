@@ -1,12 +1,12 @@
 const products = [
-	{ name: "Cashew", descriptor: "Raw and processed, graded for export" },
-	{ name: "Sesame", descriptor: "Cleaned and sorted, bulk volumes" },
+	{ name: "Cashew nuts", descriptor: "Raw and processed, graded for export" },
+	{ name: "Sesame seeds", descriptor: "Cleaned and sorted, bulk volumes" },
 	{ name: "Coffee", descriptor: "Specialty and commercial grades" },
-	{ name: "Chia", descriptor: "Food-grade, traceable origin" },
-	{ name: "Vanilla", descriptor: "Cured pods, premium grade" },
+	{ name: "Chia seeds", descriptor: "Food-grade, traceable origin" },
+	{ name: "Vanilla beans", descriptor: "Cured pods, premium grade" },
 	{ name: "Dried herbs", descriptor: "Cleaned and packed to spec" },
 	{ name: "Hass avocado", descriptor: "Fresh, export-grade, seasonal" },
-	{ name: "Macadamia", descriptor: "In-shell and kernel, export-grade" },
+	{ name: "Macadamia nuts", descriptor: "In-shell and kernel, export-grade" },
 ];
 
 const WhatWeExport = () => {

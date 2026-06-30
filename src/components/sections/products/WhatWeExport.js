@@ -2,12 +2,12 @@ const products = [
 	{
 		name: "Cashew nuts",
 		descriptor: "Raw and processed, graded for export",
-		img: "/images/products/cashew-nuts.svg",
+		img: "/images/products/cashew-nuts.jpg",
 	},
 	{
 		name: "Sesame seeds",
 		descriptor: "Cleaned and sorted, bulk volumes",
-		img: "/images/products/sesame-seeds.svg",
+		img: "/images/products/sesame-seeds.jpg",
 	},
 	{
 		name: "Coffee",
@@ -17,12 +17,12 @@ const products = [
 	{
 		name: "Chia seeds",
 		descriptor: "Food-grade, traceable origin",
-		img: "/images/products/chia-seeds.svg",
+		img: "/images/products/chia-seeds.jpg",
 	},
 	{
 		name: "Vanilla beans",
 		descriptor: "Cured pods, premium grade",
-		img: "/images/products/vanilla-beans.svg",
+		img: "/images/products/vanilla-beans.jpg",
 	},
 	{
 		name: "Dried herbs",
@@ -37,7 +37,7 @@ const products = [
 	{
 		name: "Macadamia nuts",
 		descriptor: "In-shell and kernel, export-grade",
-		img: "/images/products/macadamia-nuts.svg",
+		img: "/images/products/macadamia-nuts.jpg",
 	},
 ];
 
@@ -47,7 +47,7 @@ const WhatWeExport = () => {
 			<div className="container">
 				{/* CLIENT-CONFIRMED LIST: cashew, sesame, coffee, chia, vanilla, dried herbs, Hass avocado, macadamia. Macadamia added per client comment (2026-06-27). Tea from the old card remains excluded — confirm if it should return. */}
 				{/* CONFIRM WITH CLIENT: product descriptors are draft trade framing, not verified specs (incl. the new Macadamia descriptor). */}
-				{/* PLACEHOLDER IMAGES: /images/products/*.svg are labeled placeholders. Swap each `img` path for real product photography (same ~3:2 ratio, web-optimized) before publishing. */}
+				{/* IMAGES: cashew, sesame, chia, vanilla, macadamia use real photos (.jpg). coffee, dried-herbs, hass-avocado still use labeled .svg placeholders — swap for real photography before publishing. */}
 				<div className="row">
 					<div className="col-lg-12">
 						<div className="sec-heading style-4 text-center">
